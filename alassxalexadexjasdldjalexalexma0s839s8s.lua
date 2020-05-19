@@ -25,6 +25,7 @@ frame.ScaleType = Enum.ScaleType.Slice
 frame.SliceCenter = Rect.new(100, 100, 100, 100)
 frame.SliceScale = 0.050
 frame.Draggable = true
+frame.Active = true
 
 top.Name = "top"
 top.Parent = frame
