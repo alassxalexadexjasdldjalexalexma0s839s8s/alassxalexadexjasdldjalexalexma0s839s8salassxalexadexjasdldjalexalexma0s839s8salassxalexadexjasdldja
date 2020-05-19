@@ -14,6 +14,7 @@ local L_1_ = Instance.new("ScreenGui")
 local L_2_ = Instance.new("ImageLabel")
 local L_3_ = Instance.new("ImageLabel")
 local L_4_ = Instance.new("ImageLabel")
+local TextButton = Instance.new("TextButton")
 
 --Properties:
 
@@ -32,6 +33,14 @@ L_2_.SliceCenter = Rect.new(100, 100, 100, 100)
 L_2_.SliceScale = 0.050
 L_2_.Draggable = true
 L_2_.Active = true
+		
+TextButton.Parent = game.StarterGui.ScreenGui.frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.Position = UDim2.new(0.0772626922, 0, 0.187692314, 0)
+TextButton.Size = UDim2.new(0, 200, 0, 50)
+TextButton.Font = Enum.Font.SourceSans
+TextButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.TextSize = 14.000
 
 L_3_.Name = "top"
 L_3_.Parent = L_2_
